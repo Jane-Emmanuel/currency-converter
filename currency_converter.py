@@ -23,12 +23,15 @@ if st.button("Convert"):
                 "amount": amount
             })
             data = response.json()
-            converted_amount = data["result"]
 
-            if converted_amount:
+            # Debugging: Show full response if needed
+            # st.write(data)
+
+            if "result" in data and data["result"] is not None:
+                converted_amount = data["result"]
                 st.success(f"{amount:.2f} {from_currency} = {converted_amount:.2f} {to_currency}")
             else:
-                st.error("Conversion failed. Try again later.")
+                st.error("⚠️ Conversion failed. Please try again later.")
         except Exception as e:
             st.error(f"Error: {e}")
     else:
