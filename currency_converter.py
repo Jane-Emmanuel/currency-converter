@@ -46,7 +46,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.title("💱 Live Currency Converter with Flags (Pink Edition)")
+st.title("Live Currency Converter with Flags")
 
 # Frankfurter API endpoints
 API_URL = "https://api.frankfurter.app/latest"
