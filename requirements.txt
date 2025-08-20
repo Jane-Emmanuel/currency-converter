@@ -1,0 +1,16 @@
+streamlit
+pandas
+requests
+numpy
+scikit-learn
+joblib
+plotly
+matplotlib
+seaborn
+beautifulsoup4
+lxml
+gspread
+google-auth
+openpyxl
+xlsxwriter
+openai>=1.0.0
