@@ -1,7 +1,52 @@
 import streamlit as st
 import requests
 
-st.title("💱 Live Currency Converter with Flags")
+# --- Custom CSS for Pink Vibe ---
+st.markdown(
+    """
+    <style>
+    /* Background */
+    .stApp {
+        background: linear-gradient(135deg, #ffe6f2, #ffd6eb, #ffccf9);
+    }
+
+    /* Title */
+    h1 {
+        color: #d63384;
+        text-align: center;
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    /* Input fields & dropdowns */
+    .stNumberInput input, .stSelectbox div[data-baseweb="select"] {
+        border: 2px solid #ff4da6;
+        border-radius: 10px;
+    }
+
+    /* Buttons */
+    div.stButton > button {
+        background-color: #ff66b2;
+        color: white;
+        border-radius: 12px;
+        border: none;
+        font-weight: bold;
+        padding: 8px 20px;
+    }
+    div.stButton > button:hover {
+        background-color: #e60073;
+        color: #fff;
+    }
+
+    /* Success/info/warning boxes */
+    .stAlert {
+        border-radius: 12px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title("💱 Live Currency Converter with Flags (Pink Edition)")
 
 # Frankfurter API endpoints
 API_URL = "https://api.frankfurter.app/latest"
