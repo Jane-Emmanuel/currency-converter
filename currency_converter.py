@@ -24,8 +24,8 @@ if st.button("Convert"):
             })
             data = response.json()
 
-            # Debugging: Show full response if needed
-            # st.write(data)
+            # ✅ Debugging line – shows the raw API response
+            st.write("API Response:", data)
 
             if "result" in data and data["result"] is not None:
                 converted_amount = data["result"]
