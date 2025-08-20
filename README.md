@@ -34,9 +34,9 @@ This app is built with **Streamlit** and supports multiple currencies with count
 1. Clone the repo  
 
    ```bash
-   git clone https://github.com/your-username/currency-converter.git
+   git clone https://github.com/Jane-Emmanuel/currency-converter.git
    cd currency-converter
-````
+```
 
 2. Install dependencies
 
@@ -50,7 +50,7 @@ This app is built with **Streamlit** and supports multiple currencies with count
    streamlit run currency_converter.py
    ```
 
----
+```
 
 ## 🔗 Embed in Your Blog
 
@@ -66,7 +66,7 @@ Just paste the snippet below:
 </iframe>
 ```
 
----
+
 
 ## ⚡ Tech Stack
 
@@ -74,23 +74,32 @@ Just paste the snippet below:
 * [Frankfurter API](https://www.frankfurter.app/)
 * Python 3.9+
 
+
+
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to **fork this project**, open issues, or submit pull requests.
 
----
 
-## 💖 Support / Show Love
 
-If you find this project useful or inspiring, you can **show me love**:
+## 💖 Support / Show Love  
 
-[![Show Love on Selar](https://img.shields.io/badge/Show%20Love%20on%20Selar-ff69b4?style=for-the-badge)](https://selar.com/showlove/jane-emmanuel)
-[![Support via Payeer](https://img.shields.io/badge/Support%20via%20Payeer-ff69b4?style=for-the-badge)](https://payeer.com/)
+If you find this project useful or inspiring, you can **show me love**:  
 
-* 🌸 Selar: [https://selar.com/showlove/jane-emmanuel](https://selar.com/showlove/jane-emmanuel)
-* 💳 Payeer: **P1133027988**
+<p align="left">
+  <a href="https://selar.com/showlove/jane-emmanuel">
+    <img src="https://img.shields.io/badge/Show%20Love%20on%20Selar-ff69b4?style=for-the-badge" alt="Show Love on Selar">
+  </a>
+  <a href="https://payeer.com/">
+    <img src="https://img.shields.io/badge/Support%20via%20Payeer-ff69b4?style=for-the-badge" alt="Support via Payeer">
+  </a>
+</p>  
+
+- 🌸 Selar: [https://selar.com/showlove/jane-emmanuel](https://selar.com/showlove/jane-emmanuel)  
+- 💳 Payeer: **P1133027988**  
+
 
 ---
 
@@ -98,6 +107,6 @@ If you find this project useful or inspiring, you can **show me love**:
 
 This project is licensed under the **MIT License**.
 
-```
+---
 
 
